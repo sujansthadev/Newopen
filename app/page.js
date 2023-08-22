@@ -1,6 +1,8 @@
-import Image from "next/image";
-import { mainModule } from "process";
-
 export default function Home() {
-	return <main>Hello World</main>;
+	return (
+		<main>
+			Hello World
+			<div>added nothing</div>
+		</main>
+	);
 }
